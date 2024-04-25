@@ -125,7 +125,7 @@ To customize the behavior of the system, edit the [system message, model, skills
 ## Ubuntu Dependencies
 
 ```bash
-sudo apt-get install portaudio19-dev ffmpeg cmake
+sudo apt-get install portaudio19-dev ffmpeg cmake clang
 ```
 
 # Contributors
