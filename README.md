@@ -111,6 +111,7 @@ The final command will print a server URL. You can enter this into your 01 Light
 ## Local Mode
 
 ```
+# You must install a local model provider such as Ollama or LM Studio
 poetry run 01 --local
 ```
 
