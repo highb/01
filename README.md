@@ -43,6 +43,7 @@ cd 01/software # CD into the source directory
 
 ```shell
 brew install portaudio ffmpeg cmake # Install Mac OSX dependencies
+pip install poetry # Poetry is also available via brew and apt on Ubuntu as "python3-poetry".
 poetry install # Install Python dependencies
 export OPENAI_API_KEY=sk... # OR run `poetry run 01 --local` to run everything locally
 poetry run 01 # Runs the 01 Light simulator (hold your spacebar, speak, release)
